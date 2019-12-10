@@ -1,0 +1,35 @@
+{
+    "name": "codexsoft/cli",
+    "license": "MIT",
+    "description": "CLI helpers and tools",
+    "authors": [
+        {
+            "name": "Dmitriy V Kozubskiy",
+            "email": "kozubsky@inbox.ru",
+            "homepage": "http://codexsoft.ru/",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/codexsoft/cli/issues",
+        "source": "https://github.com/codexsoft/cli"
+    },
+    "require": {
+        "php": "^7.2.0",
+        "ext-mbstring": "*",
+        "symfony/console": "^3.0|^4.0|^5.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodexSoft\\Cli\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["vendor/"]
+        }
+    }
+}
