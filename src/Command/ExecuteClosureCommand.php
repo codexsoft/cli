@@ -24,6 +24,8 @@ class ExecuteClosureCommand extends Command
         $output->writeln('Executing closure script');
         $closure = $this->closure;
         $closure($this, $input, $output);
+
+        return 0;
     }
 
 }

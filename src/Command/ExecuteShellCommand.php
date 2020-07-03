@@ -48,6 +48,8 @@ class ExecuteShellCommand extends Command
                 throw new \Exception('Command '.$cmd.' failed with exit code '.$code.'. Further commands executing cancelled.');
             }
         }
+
+        return 0;
     }
 
 }
