@@ -15,7 +15,7 @@
         "source": "https://github.com/codexsoft/cli"
     },
     "require": {
-        "php": "^7.2.0",
+        "php": "^7.2|^8",
         "ext-mbstring": "*",
         "symfony/console": "^3.0|^4.0|^5.0"
     },
